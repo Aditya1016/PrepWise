@@ -1,61 +1,68 @@
-🤖 Introduction
-Built with Next.js for the user interface and backend logic, Firebase for authentication and data storage, styled with TailwindCSS and using Vapi's voice agents, Prepwise is a website project designed to help you learn integrating AI models with your apps. The platform offers a sleek and modern experience for job interview preparation.
+# 🤖 Prepwise
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 50k+ members. It's a place where people help each other out.
+**Prepwise** is an AI-powered interview preparation platform built with **Next.js**, **Firebase**, and **Vapi AI**. It provides a modern and intuitive interface where users can simulate job interviews with voice agents powered by **Google Gemini** and receive instant feedback for improvement.
 
+---
 
-⚙️ Tech Stack
-Next.js
-Firebase
-Tailwind CSS
-Vapi AI
-shadcn/ui
-Google Gemeni
-Zod
+## ⚙️ Tech Stack
 
-🔋 Features
-👉 Authentication: Sign Up and Sign In using password/email authentication handled by Firebase.
+- **Next.js** – UI and backend logic  
+- **Firebase** – Authentication and database  
+- **Tailwind CSS** – Styling  
+- **Vapi AI** – Voice agents for interactive interviews  
+- **shadcn/ui** – Modern UI components  
+- **Google Gemini** – AI response and feedback generation  
+- **Zod** – Schema validation
 
-👉 Create Interviews: Easily generate job interviews with help of Vapi voice assistants and Google Gemini.
+---
 
-👉 Get feedback from AI: Take the interview with AI voice agent, and receive instant feedback based on your conversation.
+## 🔋 Features
 
-👉 Modern UI/UX: A sleek and user-friendly interface designed for a great experience.
+- 🔐 **Authentication** – Sign up and log in via email/password (Firebase)  
+- 🗣️ **AI Interviews** – Generate interviews with voice agents (Vapi + Gemini)  
+- 🤖 **AI Feedback** – Receive real-time feedback and transcripts after each interview  
+- 💻 **Modern UI/UX** – Sleek, responsive design using Tailwind CSS and shadcn/ui  
+- 📋 **Dashboard** – Manage and track interview sessions  
+- 📱 **Responsive Design** – Works smoothly across all device sizes  
+- ⚙️ **Modular Codebase** – Clean architecture and reusable components
 
-👉 Interview Page: Conduct AI-driven interviews with real-time feedback and detailed transcripts.
+---
 
-👉 Dashboard: Manage and track all your interviews with easy navigation.
+## 🤝 Community
 
-👉 Responsiveness: Fully responsive design that works seamlessly across devices.
+Need help or found a bug?  
+Join our **Discord** community of over **50,000+ members** to get support and connect with other developers.
 
-and many more, including code architecture and reusability
+---
 
-🤸 Quick Start
-Follow these steps to set up the project locally on your machine.
+## 🚀 Quick Start
 
-Prerequisites
+### Prerequisites
 
-Make sure you have the following installed on your machine:
+Make sure the following are installed:
 
-Git
-Node.js
-npm (Node Package Manager)
-Cloning the Repository
+- Git  
+- Node.js  
+- npm
 
+### Clone the Repository
+
+```bash
 git clone https://github.com/adrianhajdin/ai_mock_interviews.git
 cd ai_mock_interviews
-Installation
-
-Install the project dependencies using npm:
-
+Install Dependencies
+bash
+Copy
+Edit
 npm install
-Set Up Environment Variables
+Environment Setup
+Create a .env.local file in the root directory and add the following variables:
 
-Create a new file named .env.local in the root of your project and add the following content:
-
+env
+Copy
+Edit
 NEXT_PUBLIC_VAPI_WEB_TOKEN=
 NEXT_PUBLIC_VAPI_WORKFLOW_ID=
-
 GOOGLE_GENERATIVE_AI_API_KEY=
 
 NEXT_PUBLIC_BASE_URL=
@@ -70,10 +77,12 @@ NEXT_PUBLIC_FIREBASE_APP_ID=
 FIREBASE_PROJECT_ID=
 FIREBASE_CLIENT_EMAIL=
 FIREBASE_PRIVATE_KEY=
-Replace the placeholder values with your actual Firebase, Vapi credentials.
+⚠️ Replace the placeholder values with your actual Firebase and Vapi credentials.
 
-Running the Project
-
+Run the Project
+bash
+Copy
+Edit
 npm run dev
-Open http://localhost:3000 in your browser to view the project.
+Open http://localhost:3000 in your browser to view the app.
 
