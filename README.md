@@ -28,13 +28,6 @@
 
 ---
 
-## 🤝 Community
-
-Need help or found a bug?  
-Join our **Discord** community of over **50,000+ members** to get support and connect with other developers.
-
----
-
 ## 🚀 Quick Start
 
 ### Prerequisites
